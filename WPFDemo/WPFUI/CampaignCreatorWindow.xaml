@@ -1,0 +1,83 @@
+﻿<Window x:Class="WPFUI.CampaignCreatorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFUI"
+        mc:Ignorable="d"
+        FontSize="18"
+        FontFamily="Segoe UI Light"
+        Title="Campaign Creator" Height="600" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="2" Margin="0,0,20,20">
+            Title
+        </TextBlock>
+        <TextBox x:Name="TB_title" Grid.Column="2" Grid.Row="2" Margin="0,0,0,20"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="3" Margin="0,0,20,20">
+            Dungeon Master
+        </TextBlock>
+        <TextBox x:Name="TB_DM" Grid.Column="2" Grid.Row="3" Margin="0,0,0,20"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="4" Margin="0,0,20,20">
+            Start Date
+        </TextBlock>
+        <TextBox x:Name="TB_startDate" Grid.Column="2" Grid.Row="4" Margin="0,0,0,20"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="5">
+            Description
+        </TextBlock>
+        <TextBox x:Name="tb_descrip" Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" Margin="0,5" Grid.ColumnSpan="2">
+            Enter a brief description of your campaign :)
+        </TextBox>
+
+        <Grid 
+            x:Name="btn_Grid"
+            Width="auto"
+            Height="auto"
+            Grid.Column="1"
+            Grid.Row="7"
+            Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Button x:Name="btn_Exit" Grid.Column="1" Grid.Row="1" Click="btn_Exit_Click">
+                Exit
+            </Button>
+
+            <Button x:Name="btn_Submit" Grid.Column="3" Grid.Row="1" Click="btn_Submit_Click">
+                Submit
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>
