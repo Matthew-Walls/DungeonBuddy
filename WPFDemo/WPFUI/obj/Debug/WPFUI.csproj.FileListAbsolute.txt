@@ -56,3 +56,5 @@ E:\Git\DungeonBuddy-local\WPFDemo\WPFUI\obj\Debug\WPFUI.pdb
 E:\Git\DungeonBuddy-local\WPFDemo\WPFUI\bin\Debug\WPFUI.exe.config
 E:\Git\DungeonBuddy-local\WPFDemo\WPFUI\bin\Debug\WPFUI.exe
 E:\Git\DungeonBuddy-local\WPFDemo\WPFUI\bin\Debug\WPFUI.pdb
+E:\Git\DungeonBuddy-local\WPFDemo\WPFUI\obj\Debug\CampaignWindow.g.cs
+E:\Git\DungeonBuddy-local\WPFDemo\WPFUI\obj\Debug\CampaignWindow.baml

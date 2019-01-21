@@ -74,6 +74,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CampaignWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -84,6 +88,9 @@
     </Compile>
     <Compile Include="CampaignCreatorWindow.xaml.cs">
       <DependentUpon>CampaignCreatorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CampaignWindow.xaml.cs">
+      <DependentUpon>CampaignWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="DungeonBuddyDataSet.Designer.cs">
       <AutoGen>True</AutoGen>

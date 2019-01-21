@@ -59,5 +59,10 @@ namespace WPFUI
             MonsterManualWindow window = new MonsterManualWindow();
             window.ShowDialog();
         }
+
+        private void MenuItem_EditCampaign_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
